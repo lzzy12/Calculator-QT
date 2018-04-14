@@ -98,8 +98,8 @@ void CalcWindow::on_pushButton_16_clicked()
 
 void CalcWindow::on_pushButton_15_clicked()
 {
-    QString fuck = ui->textBrowser->toPlainText();
-    const char *fuck1 = fuck.toUtf8().constData();
-    double answer = te_interp(fuck1, 0);
+    QString plainText = ui->textBrowser->toPlainText();  // Holding text in the textBrowser for further conversion into standard C string
+    const char *standardText = plainText.toUtf8().constData();  // Didn't use std::string because te_tnterp takes C-style strings
+    double answer = te_interp(standardText, 0);
     ui->textBrowser->setText(QString::number(answer));
 }
