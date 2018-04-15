@@ -7,11 +7,14 @@
     <x>0</x>
     <y>0</y>
     <width>406</width>
-    <height>255</height>
+    <height>276</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>CalcWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(0, 0, 0)</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QHBoxLayout" name="horizontalLayout_6">
@@ -19,12 +22,16 @@
      <layout class="QVBoxLayout" name="verticalLayout_4">
       <item>
        <widget class="QTextBrowser" name="textBrowser">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(173, 127, 168);
+font-size: 35px;</string>
+        </property>
         <property name="html">
          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:35px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:25pt;&quot;&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
@@ -36,6 +43,9 @@ p, li { white-space: pre-wrap; }
            <layout class="QHBoxLayout" name="horizontalLayout_2">
             <item>
              <widget class="QPushButton" name="pushButton">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(32, 74, 135);</string>
+              </property>
               <property name="text">
                <string>1</string>
               </property>
@@ -43,6 +53,9 @@ p, li { white-space: pre-wrap; }
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_2">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(239, 41, 41);</string>
+              </property>
               <property name="text">
                <string>2</string>
               </property>
@@ -50,6 +63,9 @@ p, li { white-space: pre-wrap; }
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_3">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(237, 212, 0);</string>
+              </property>
               <property name="text">
                <string>3</string>
               </property>
@@ -61,6 +77,9 @@ p, li { white-space: pre-wrap; }
            <layout class="QHBoxLayout" name="horizontalLayout">
             <item>
              <widget class="QPushButton" name="pushButton_4">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(32, 74, 135);</string>
+              </property>
               <property name="text">
                <string>4</string>
               </property>
@@ -68,6 +87,9 @@ p, li { white-space: pre-wrap; }
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_6">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(239, 41, 41);</string>
+              </property>
               <property name="text">
                <string>5</string>
               </property>
@@ -75,6 +97,9 @@ p, li { white-space: pre-wrap; }
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_5">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(237, 212, 0);</string>
+              </property>
               <property name="text">
                <string>6</string>
               </property>
@@ -86,6 +111,9 @@ p, li { white-space: pre-wrap; }
            <layout class="QHBoxLayout" name="horizontalLayout_3">
             <item>
              <widget class="QPushButton" name="pushButton_7">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(32, 74, 135);</string>
+              </property>
               <property name="text">
                <string>7</string>
               </property>
@@ -93,6 +121,10 @@ p, li { white-space: pre-wrap; }
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_9">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(239, 41, 41);
+</string>
+              </property>
               <property name="text">
                <string>8</string>
               </property>
@@ -100,6 +132,9 @@ p, li { white-space: pre-wrap; }
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_8">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(237, 212, 0);</string>
+              </property>
               <property name="text">
                <string>9</string>
               </property>
@@ -111,6 +146,9 @@ p, li { white-space: pre-wrap; }
            <layout class="QHBoxLayout" name="horizontalLayout_4">
             <item>
              <widget class="QPushButton" name="pushButton_10">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(32, 74, 135);</string>
+              </property>
               <property name="text">
                <string>*</string>
               </property>
@@ -118,6 +156,9 @@ p, li { white-space: pre-wrap; }
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_12">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(239, 41, 41);</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>
@@ -125,6 +166,9 @@ p, li { white-space: pre-wrap; }
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_11">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(237, 212, 0);</string>
+              </property>
               <property name="text">
                <string>/</string>
               </property>
@@ -140,6 +184,9 @@ p, li { white-space: pre-wrap; }
            <layout class="QVBoxLayout" name="verticalLayout">
             <item>
              <widget class="QPushButton" name="pushButton_13">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(237, 50, 17);</string>
+              </property>
               <property name="text">
                <string>+</string>
               </property>
@@ -147,6 +194,9 @@ p, li { white-space: pre-wrap; }
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_14">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(237, 50, 17);</string>
+              </property>
               <property name="text">
                <string>-</string>
               </property>
@@ -154,6 +204,9 @@ p, li { white-space: pre-wrap; }
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_15">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(237, 50, 17);</string>
+              </property>
               <property name="text">
                <string>=</string>
               </property>
@@ -163,6 +216,9 @@ p, li { white-space: pre-wrap; }
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_16">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(237, 50, 17);</string>
+            </property>
             <property name="text">
              <string>Clear</string>
             </property>
