@@ -1,6 +1,7 @@
 #include "calcwindow.h"
 #include "ui_calcwindow.h"
 #include "tinyexpr.h"
+#include <QColor>
 CalcWindow::CalcWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::CalcWindow)
@@ -15,9 +16,12 @@ CalcWindow::~CalcWindow()
 
 void CalcWindow::setText(QString value){
 
-    if (ui->textBrowser->toPlainText() == "0"){
+    if (ui->textBrowser->toPlainText() == "0" && (value == " / " || value == " + " || value == " - " || value == " * " ))
+        ui->textBrowser->setText("0" + value);
+
+    else if (ui->textBrowser->toPlainText() == "0" && !(value == " / " || value == " + " || value == " - " || value == " * " ))
         ui->textBrowser->setText(value);
-    }
+
     else ui->textBrowser->setText(ui->textBrowser->toPlainText() + value);
 }
 
