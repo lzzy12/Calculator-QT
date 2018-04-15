@@ -7,6 +7,16 @@ CalcWindow::CalcWindow(QWidget *parent) :
     ui(new Ui::CalcWindow)
 {
     ui->setupUi(this);
+    ui->verticalLayout->setSpacing(0);
+    ui->verticalLayout_2->setSpacing(0);
+    ui->verticalLayout_3->setSpacing(0);
+    ui->verticalLayout_4->setSpacing(0);
+    ui->horizontalLayout->setSpacing(0);
+    ui->horizontalLayout_2->setSpacing(0);
+    ui->horizontalLayout_3->setSpacing(0);
+    ui->horizontalLayout_4->setSpacing(0);
+    ui->horizontalLayout_5->setSpacing(0);
+    ui->horizontalLayout_6->setSpacing(0);
 }
 
 CalcWindow::~CalcWindow()
